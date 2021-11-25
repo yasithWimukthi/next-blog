@@ -1,4 +1,4 @@
-import classes from './post-grid.module.css'
+import classes from './posts-grid.module.css'
 import PostItem from "./post-item";
 
 function PostGrid ({posts}){
@@ -6,7 +6,7 @@ function PostGrid ({posts}){
        <ul className={classes.grid}>
            {
                posts.map( post => {
-                  return <PostItem/>
+                  return <PostItem key={post.slug} post={post}/>
                })
            }
        </ul>
