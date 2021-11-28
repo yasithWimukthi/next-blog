@@ -12,8 +12,8 @@ function Hero(){
                     width={300}
                     height={300}/>
             </div>
-            <h1>name</h1>
-            <p>content</p>
+            <h1>yasith wimukthi</h1>
+            <p>Software Engineering Undergraduate</p>
         </section>
     );
 }
